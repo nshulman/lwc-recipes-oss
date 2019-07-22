@@ -33,6 +33,11 @@ const navigationItems = {
         title: '3rd Party Libs',
         value: 'party',
         visible: false
+    },
+    pres: {
+        title: 'Presentation',
+        value: 'pres',
+        visible: false
     }
 };
 
@@ -42,7 +47,8 @@ const navigationElements = [
     'child',
     'parent',
     'misc',
-    'party'
+    'party',
+    'pres'
 ];
 
 export { navigationItems, navigationElements };
