@@ -43,14 +43,29 @@
                     <recipe-libs-momentjs></recipe-libs-momentjs>
                 </template>
                 <template if:true={navigationItems.pres.visible}>
-                        <ui-card title="Dallas Developer Group Presentation">
+                    <ui-card title="Dreamforce 2019 Presentation 11/19/19">
+                        <div>
+                                <a href='https://drive.google.com/file/d/1sVfKMU7wHCEb11WXTTlZnynqaS2i6XmU/view?usp=sharing' target="_blank">8 JavaScript Standards for LWC</a>
+                                <br />
+                                <a href='https://github.com/nshulman/8js-df19' target="_blank">Source on Github</a>
+                        </div>                           
+                    </ui-card>    
+                    <ui-card title="Dallas Developer Group Presentation 7/24/19">
                                 <div>
-                                        <a href='https://drive.google.com/open?id=17Mb4nlbZEKqjNie5qQ9Iza7cV0MkhXfn' target="goog">Here is a link to the presentation</a>
-                                </div>
+                                        <a href='https://drive.google.com/open?id=17Mb4nlbZEKqjNie5qQ9Iza7cV0MkhXfn' target="_blank">Intro to LWC</a>
+                                </div>                           
+                    </ui-card>
                         
-                                
-                            </ui-card>
-                    
+                </template>
+                <template if:true={navigationItems.about.visible}>
+                    <ui-card title="About lwc.tools">
+                        <div>
+                                This is my LWC playground.  It has the LWC OSS Recipes pushed to heroku
+                                and a few extra links to presentations I've made.
+                                Feel free to contact me at @nshulman on Twitter or at &nbsp;
+                                <a href="https://www.linkedin.com/in/nathanshulman/" target="_blank">/in/nathanshulman on LinkedIn</a>.
+                        </div>                           
+                    </ui-card>        
                 </template>
                 <ui-navfooter
                     label-next={nextNavigationItem}

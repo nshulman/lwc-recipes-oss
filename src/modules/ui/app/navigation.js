@@ -1,4 +1,14 @@
 const navigationItems = {
+    pres: {
+        title: 'Presentations',
+        value: 'pres',
+        visible: false
+    },
+    about: {
+        title: 'About',
+        value: 'about',
+        visible: false
+    },
     hello: {
         title: 'Hello',
         value: 'hello',
@@ -34,21 +44,18 @@ const navigationItems = {
         value: 'party',
         visible: false
     },
-    pres: {
-        title: 'Presentation',
-        value: 'pres',
-        visible: false
-    }
+    
 };
 
 const navigationElements = [
+    'pres',
     'hello',
     'composition',
     'child',
     'parent',
     'misc',
     'party',
-    'pres'
+    
 ];
 
 export { navigationItems, navigationElements };
