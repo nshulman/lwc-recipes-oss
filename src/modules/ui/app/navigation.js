@@ -1,14 +1,15 @@
 const navigationItems = {
-    pres: {
-        title: 'Presentations',
-        value: 'pres',
-        visible: false
-    },
     about: {
         title: 'About',
         value: 'about',
         visible: false
     },
+    pres: {
+        title: 'Presentations',
+        value: 'pres',
+        visible: false
+    },
+    
     hello: {
         title: 'Hello',
         value: 'hello',
@@ -48,6 +49,7 @@ const navigationItems = {
 };
 
 const navigationElements = [
+    'about',
     'pres',
     'hello',
     'composition',

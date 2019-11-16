@@ -2,7 +2,7 @@ import { LightningElement, track } from 'lwc';
 import { navigationItems, navigationElements } from './navigation';
 
 export default class App extends LightningElement {
-    @track currentNavigationItem = 'pres';
+    @track currentNavigationItem = 'about';
     @track navigationItems = navigationItems;
     @track nextNavigationItem;
     @track previousNavigationItem;
